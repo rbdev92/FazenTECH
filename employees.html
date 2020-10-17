@@ -9,14 +9,44 @@
 		href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,400;0,600;1,300;1,700&display=swap"
 		rel="stylesheet">
 	<title>FazenTECH</title>
+
+	<style>
+		body {
+			background-image: url("app/img/soja.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		section {
+			width: 800px;
+			background-color: rgba(255, 255, 255, .7);
+			margin: 50px auto;
+			border-radius: 10px;
+			border: 7px ridge var(--greenFarm);
+		}
+
+		section article {
+			padding: 20px 30px;
+			text-align: justify;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 30px;
+			color: var(--white);
+			font-size: 2.5rem;
+		}
+	</style>
 </head>
 
 <body>
 	<nav>
-		<p><span class="farm">Fazen</span><span class="tech">TECH</span></p>
+		<a href="index.html">
+			<p><span class="farm">Fazen</span><span class="tech">TECH</span></p>
+		</a>
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="">Sobre</a>
+			<li><a href="">Sobre&darr;</a>
 				<ul>
 					<li><a href="about.html">Nossa Fazenda</a></li>
 					<li><a href="products.html">Nossos Produtos</a></li>
@@ -28,6 +58,34 @@
 		</ul>
 	</nav>
 
+	<section>
+		<article>
+			<h1><span class="farm">Área</span><span class="tech">Restrita</span></h1>
+		</article>
+		<article>
+			<form action="register.php" method="POST" class="form-example">
+				<div class="form-example">
+					<label for="name">Usuário</label>
+					<input type="text" name="name" id="name" required>
+				</div>
+				<div class="form-example">
+					<label for="password">Senha</label>
+					<input type="password" name="password" id="password" required>
+				</div>
+				<div class="form-example">
+					<input type="submit" value="Acessar">
+				</div>
+			</form>
+		</article>
+	</section>
+	
+	<footer>
+		<p>
+			&copy; <a href="index.html"><span class="farm">Fazen</span><span class="tech">TECH</span></a> - Todos os direitos
+			reservados | Developed by: <a href="https://renatoobrito.github.io" target="_blank"><span
+					class="farm">Renato</span><span class="tech">Brito</span></a>
+		</p>
+	</footer>
 </body>
 
 </html>
