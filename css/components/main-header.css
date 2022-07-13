@@ -1,0 +1,8 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  border-top: 10px solid var(--blue);
+  border-bottom: 10px solid var(--green);
+  padding: 10px 20px;
+}
