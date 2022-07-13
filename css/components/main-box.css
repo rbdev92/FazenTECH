@@ -1,0 +1,15 @@
+.main-box {
+  display: flex;
+  background-color: var(--white);
+  border-color: 10px solid var(--green);
+  width: 800px;
+  height: 800px;
+}
+
+.main-box {
+  display: inline-block;
+  background-color: var(--color-black-second);
+  box-shadow: 10px 10px 0 var(--color-black-first);
+  text-align: center;
+  padding: 42px 44px;
+}
